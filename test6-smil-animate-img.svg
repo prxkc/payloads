@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="500" height="500">
+  <!-- 
+    img-src allows data: only.
+    But does SMIL-animating the href attribute bypass CSP check timing?
+    SMIL sets href AFTER initial parse — might slip past static CSP enforcement.
+  -->
+  <image id="probe" href="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+         width="1" height="1">
+    <animate attributeName="href"
+             from="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+             to="https://xpxhznhjlolwxxyvdurgehk2cmtiyvvhh.oast.fun/test6-smil-img"
+             begin="0.1s" dur="0.1s" fill="freeze"/>
+  </image>
+  <rect width="500" height="500" fill="#2d2d2d" opacity="0.9"/>
+  <text x="50" y="250" fill="white" font-size="18">TEST6: SMIL ANIMATE IMAGE HREF</text>
+</svg>

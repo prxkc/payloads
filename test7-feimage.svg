@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="500" height="500">
+  <defs>
+    <!-- feImage fetches external resource as filter input -->
+    <filter id="f1">
+      <feImage href="https://xpxhznhjlolwxxyvdurgehk2cmtiyvvhh.oast.fun/test7-feimage"
+               result="external"/>
+      <feImage xlink:href="https://xpxhznhjlolwxxyvdurgehk2cmtiyvvhh.oast.fun/test7-feimage-xlink"
+               result="external2"/>
+    </filter>
+  </defs>
+  <rect width="500" height="500" fill="teal" filter="url(#f1)"/>
+  <text x="60" y="250" fill="white" font-size="18">TEST7: feImage EXTERNAL</text>
+</svg>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="500" height="500">
+  <!-- use href fires sub-resource fetch — tests default-src none blocking -->
+  <use href="https://xpxhznhjlolwxxyvdurgehk2cmtiyvvhh.oast.fun/test4-use-href#shape"/>
+  <use xlink:href="https://xpxhznhjlolwxxyvdurgehk2cmtiyvvhh.oast.fun/test4-use-xlink#shape"/>
+  <rect width="500" height="500" fill="purple"/>
+  <text x="80" y="250" fill="white" font-size="20">TEST4: USE HREF</text>
+</svg>

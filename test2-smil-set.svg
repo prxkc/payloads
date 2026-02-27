@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+  <a id="lnk" href="">
+    <rect width="500" height="500" fill="steelblue"/>
+    <text x="80" y="250" font-size="24" fill="white">CLICK - SMIL HREF SET</text>
+    <!-- SMIL sets href before user can click -->
+    <set attributeName="href"
+         to="https://xpxhznhjlolwxxyvdurgehk2cmtiyvvhh.oast.fun/test2-smil-set"
+         begin="0s"/>
+  </a>
+</svg>
