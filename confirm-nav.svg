@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="500" height="500">
+
+  <!--
+    SMIL animateTransform on an <a> element.
+    navigate-to is NOT enforced. Test if SMIL can trigger automatic navigation
+    without user click by animating the href on begin="0s"
+  -->
+  <a id="autolink" href="https://xpxhznhjlolwxxyvdurgehk2cmtiyvvhh.oast.fun/smil-autonavigate">
+    <rect id="r" width="500" height="500" fill="#8e44ad">
+      <!-- SMIL fires at 0s, sets href -->
+      <set attributeName="display" to="inline" begin="0s"/>
+    </rect>
+    <!-- Attempt: animate the parent <a> href immediately -->
+    <set attributeName="href"
+         to="https://xpxhznhjlolwxxyvdurgehk2cmtiyvvhh.oast.fun/smil-autonavigate"
+         begin="0s"/>
+    <text x="60" y="250" fill="white" font-size="18">SMIL AUTO NAV TEST</text>
+  </a>
+
+</svg>
